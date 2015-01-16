@@ -14,6 +14,9 @@
 		606FBF901A697CE3008850DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606FBF8F1A697CE3008850DA /* Images.xcassets */; };
 		606FBF931A697CE3008850DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 606FBF911A697CE3008850DA /* LaunchScreen.xib */; };
 		606FBF9F1A697CE3008850DA /* CodeChallenge2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 606FBF9E1A697CE3008850DA /* CodeChallenge2Tests.m */; };
+		606FBFAA1A698155008850DA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606FBFA91A698155008850DA /* DetailViewController.m */; };
+		606FBFAD1A698188008850DA /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 606FBFAC1A698188008850DA /* City.m */; };
+		606FBFB01A69823B008850DA /* WikiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 606FBFAF1A69823B008850DA /* WikiViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		606FBF981A697CE3008850DA /* CodeChallenge2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeChallenge2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		606FBF9D1A697CE3008850DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		606FBF9E1A697CE3008850DA /* CodeChallenge2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeChallenge2Tests.m; sourceTree = "<group>"; };
+		606FBFA81A698155008850DA /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		606FBFA91A698155008850DA /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		606FBFAB1A698188008850DA /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		606FBFAC1A698188008850DA /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		606FBFAE1A69823B008850DA /* WikiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikiViewController.h; sourceTree = "<group>"; };
+		606FBFAF1A69823B008850DA /* WikiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikiViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,12 @@
 				606FBF891A697CE3008850DA /* ViewController.h */,
 				606FBF8A1A697CE3008850DA /* ViewController.m */,
 				606FBF8C1A697CE3008850DA /* Main.storyboard */,
+				606FBFAE1A69823B008850DA /* WikiViewController.h */,
+				606FBFAF1A69823B008850DA /* WikiViewController.m */,
+				606FBFAB1A698188008850DA /* City.h */,
+				606FBFAC1A698188008850DA /* City.m */,
+				606FBFA81A698155008850DA /* DetailViewController.h */,
+				606FBFA91A698155008850DA /* DetailViewController.m */,
 				606FBF8F1A697CE3008850DA /* Images.xcassets */,
 				606FBF911A697CE3008850DA /* LaunchScreen.xib */,
 				606FBF821A697CE3008850DA /* Supporting Files */,
@@ -219,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				606FBFAD1A698188008850DA /* City.m in Sources */,
 				606FBF8B1A697CE3008850DA /* ViewController.m in Sources */,
+				606FBFB01A69823B008850DA /* WikiViewController.m in Sources */,
 				606FBF881A697CE3008850DA /* AppDelegate.m in Sources */,
 				606FBF851A697CE3008850DA /* main.m in Sources */,
+				606FBFAA1A698155008850DA /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
